@@ -20,7 +20,7 @@
 </head>
 <body <?php body_class(); ?>>
 <div id="wrapper">
-	<img data-wow-duration="2s" data-wow-delay="1s" id"block-top" class="cornerBlock wow fadeInDown" src="<?php echo get_stylesheet_directory_uri(); ?>/images/block7.png" alt="">
+	<img data-wow-duration="2s" data-wow-delay="1s" id"block-top" class="cornerBlock wow fadeInDown" src="<?php echo get_stylesheet_directory_uri(); ?>/images/block8.png" alt="">
 	<a href="#main" class="sr-only sr-only-focusable skipnav"><?php _e('Skip to main content', 'basetheme'); ?></a>
 	<header id="header" class="clearfix">
 		<div class="container">
