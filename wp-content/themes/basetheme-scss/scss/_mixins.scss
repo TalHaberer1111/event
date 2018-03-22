@@ -1,0 +1,10 @@
+@mixin zerolist() {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+@mixin rem($pixels: 16, $property: 'font-size') {	
+	#{$property}: $pixels + px;
+	#{$property}: ($pixels / 16) + rem;	
+}
