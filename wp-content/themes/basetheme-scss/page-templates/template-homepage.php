@@ -72,7 +72,8 @@ get_header(); ?>
       // animate to forth panel
       .to("#slideContainer", 0.5, {z: -150, delay: 1})
       .to("#slideContainer", .5,   {x: "-75%"})
-      .to("#slideContainer", 0.5, {z: 0});
+      .to("#slideContainer", 2, {z: 0});
+      wipeAnimation.repeat(1).yoyo(true).repeatDelay(0.5).play(0.5);
 
 
       // create scene to pin and link animation
